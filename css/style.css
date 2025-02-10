@@ -103,18 +103,15 @@
 
 /* Benefits section */
 #key-benefits h2 {
-  background-color: var(--secondary);
-  text-align: center;
+  flex-direction: column;
+  align-items: center;
   padding: 2em;
-  font-weight: 500;
+  width: auto;
 }
 
-.benefits {
-  display: flex;
-  justify-content: space-around;
-  padding: 4em;
-  width: 80%;
-  margin: 0 auto;
+.benefit {
+ max-width: 100%;
+ margin-bottom: 2em;
 }
 
 .benefit {
